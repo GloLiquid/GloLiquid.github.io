@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+  <style>
+  
+/* Page frame */
+  
+    #outer {
+      position: relative;
+	  top: 0px;
+	  width:750px;
+	  height: 500px;
+	  margin: 15px auto;
+	  background-color: white;
+	  background-border: black;
+  }
+
+/* Page header */
+  
+      #startwatch {
+	    top: 0;
+	    position: absolute;
+	    float: left;
+	    left: 250px;
+}    
+
+      #taskbar {
+	  position:absolute;
+	  top: 55px;
+	  left: 90px;
+	  }
+	  
+	  /* Stopwatch display */
+
+	  #output{
+		position: absolute;
+		top: 150px;
+		left: 260px;
+		font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+		font-size: 60px;
+		font-weight: 100;
+		text-align: center;
+		}
+		
+		#controls {
+		text-align: center;
+		}
+		
+/* Stopwatch controls */
+		
+	  #startPause{
+	    position: absolute;
+		top: 300px;
+		left: 260px;
+	    background-color: #2E80B7;
+		border-radius: 5px;
+		border: 1px #2E80B7 solid;
+	    font-size: 30px;
+		font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+		font-weight: 100;
+		color: white;
+      }
+	  
+  	  #reset{
+	    position: absolute;
+		top: 300px;
+		left: 395px;
+		background-color: white;
+		border-radius: 5px;
+		border: 1px #ff0000 solid;
+	    font-size: 30px;
+		font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+		font-weight: 100;
+		color: #ff0000;
+      }
+	  
+/* Navigation */
+	  
+	  #next {
+	    position: absolute;
+		top: 400px;
+		left: 335px;
+		background-color: white;
+		border-radius: 5px;
+		border: 1px #7BC945 solid;
+	    font-size: 30px;
+		font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+		font-weight: 100;
+		color: #7bc945; 
+	  }
+	  
+  </style>
+  
+  <script>
+ var running = false;
+	  var startTime;
+	  var timeId;
+
+	  function startPause(){
+	    if(running == false){
+			running = true;
+			startTime = (new Date).getTime(); 
+		
+			timeId=setInterval(increment,25); // really would be better to use requestAnimationFrame.
+
+		document.getElementById("startPause").innerHTML = "Pause";
+		}else{
+			clearInterval(timeId);
+			running = false;
+		  	document.getElementById("startPause").innerHTML = "Resume";
+		}
+	  }
+
+	  function reset(){
+
+	  		if (running)
+	  			clearInterval(timeId);
+
+	        running = false;
+			
+	      	document.getElementById("startPause").innerHTML = "Start";
+			document.getElementById("output").innerHTML = "00:00:00";
+	  }
+
+	  function increment(){
+	    
+	   
+	   	   var time=new Date( (new Date).getTime() - startTime);
+		   
+		   var mins = time.getMinutes();
+		   var secs = time.getSeconds();
+		   var tenths = Math.floor(time.getMilliseconds()/10);
+
+		   if(mins < 10){
+		      mins = "0" + mins;
+		   }
+		   if(secs < 10){
+		      secs = "0" + secs;
+		   }
+		   if (tenths<10)
+		   	tenths = "0"+tenths; 
+
+		   document.getElementById("output").innerHTML = mins + ":" + secs + ":" +  tenths;
+		  
+	  }
+
+
+	  	window.onload=reset;
+	</script>
+  
+  <title>Start</title>
+  </head>
+  
+  <body>  
+
+<!-- Page frame -->
+
+<div id = "outer">
+
+<!-- Page header -->
+
+  <div id = "Startwatch">
+     <img src = "http://i1278.photobucket.com/albums/y517/Glynne_John_Owen/Startwatch_zps58cda4fa.png" border = "0" alt = " photo Startwatch_zps58cda4fa.png"/></a>
+  </div>
+  
+  <div id = "taskbar">
+  <img src="http://i1278.photobucket.com/albums/y517/Glynne_John_Owen/do_zps5298a062.png" border="0" alt=" photo do_zps5298a062.png" height = "25"/></a>
+  </div>
+  
+  <!-- Stopwatch display -->
+	
+      <p id = "output"></p>
+
+<!-- Stopwatch controls -->	  
+	  
+	<div id = "controls">
+     <button id = "startPause" onclick = "startPause()">Start</button>
+	 <button id = "reset" onclick = "reset()">Reset</button>
+    </div>
+
+<!-- Page navigation -->
+	
+	<div>
+	<a href = file:///C:/Users/shena/Desktop/startwatch/rose.html >
+	 <button id = "next" onclick = "next()">Next</button>
+	</a>
+	</div>
+	
+</div>
+  </body>
+</html>

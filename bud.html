@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+  <style>
+  
+/* Page frame */
+  
+    #outer {
+      position: relative;
+	  top: 0px;
+	  width:750px;
+	  height: 500px;
+	  margin: 15px auto;
+	  background-color: white;
+	  background-border: black;
+  }
+
+/* Page header */
+  
+      #startwatch {
+	  top: 0;
+	   position: absolute;
+	   float: left;
+	   left: 250px;
+}    
+
+      #taskbar {
+	  position:absolute;
+	  top: 55px;
+	  left: 90px;
+	  }
+
+/* Paragraph */
+  
+    #title {
+       position: absolute;
+	   top: 100px;
+	   left: 295px;
+	   background color: white;
+	   width: 125px;
+	   padding: 15px;
+	   text-align:center;
+	   font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+	   font-size: 60px;
+}
+
+/* Text area design */
+
+	  #t1 {
+	  position: absolute;
+	   top: 300px;
+	   left: 225px;
+  	  font-size: 25px;
+	  width: 300px;
+	  height: 30px;
+      border: 3px solid #cccccc;
+	  border-radius: 5px;
+	  padding: 5px;
+      white-space: nowrap; /* paragraph to one line */
+      overflow: hidden; /* older browsers */
+      }
+	  
+/* Navigation */
+	  
+	  #next {
+	    position: absolute;
+		top: 400px;
+		left: 335px;
+		background-color: white;
+		border-radius: 5px;
+		border: 1px #7BC945 solid;
+	    font-size: 30px;
+		font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+		font-weight: 100;
+		color: #7bc945; 
+	  }
+	  
+	  #progress {
+	  position: absolute;
+	  left: 305px;
+	  top: 550px;
+	  }
+	  
+  </style>
+  
+  
+  <title>Bud</title>
+  </head>
+  
+  <body>  
+
+<!-- Page frame -->
+
+<div id = "outer">
+
+<!-- Page header -->
+
+  <div id = "Startwatch">
+     <img src = "http://i1278.photobucket.com/albums/y517/Glynne_John_Owen/Startwatch_zps58cda4fa.png" border = "0" alt = " photo Startwatch_zps58cda4fa.png"/></a>
+  </div>
+  
+  <div id = "taskbar">
+  <img src="http://i1278.photobucket.com/albums/y517/Glynne_John_Owen/review_zpsf0a0c123.png" border="0" alt=" photo review_zpsf0a0c123.png" height = "25"/></a>
+  </div>
+  
+<!-- Paragraph -->
+  
+  <div id = "title">
+	    <p>Bud</p>
+  </div>
+  
+  <div>
+		<input id = "t1" type = "text" placeholder = "I'm looking forward to...">
+  </div>
+
+<!-- Page navigation -->
+	
+	<div>
+	<a href = file:///C:/Users/shena/Desktop/startwatch/why.html >
+	 <button id = "next" onclick = "next()">Next</button>
+	</a>
+	</div>
+	
+	<div id = "progress">
+	<img src="http://i1278.photobucket.com/albums/y517/Glynne_John_Owen/progress3_zps9d36c67e.png" border="0" alt=" photo progress3_zps9d36c67e.png" height = "25"/></a>
+	</div>
+	
+</div>
+  </body>
+</html>
