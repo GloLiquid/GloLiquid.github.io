@@ -80,7 +80,7 @@
 <!-- Page navigation -->
 	
 	<div>
-	<a href = why.html >
+	<a href = why>
 	 <button id = "enter" onclick = "enter()">Enter</button>
 	</a>
 	</div>
