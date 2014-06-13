@@ -117,7 +117,7 @@
 <!-- Page navigation -->
 	
 	<div>
-	<a href = how.html >
+	<a href = how>
 	 <button id = "next" onclick = "next()">Next</button>
 	</a>
 	</div>
