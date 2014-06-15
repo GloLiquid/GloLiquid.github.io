@@ -1,8 +1,8 @@
 $(document).ready(function(){
-    $(#button input[name="enter"]).mouseenter(function(){
-        $(#button input[name="enter").fadeTo('fast',1);
+    $(#div button[name="enter"]).mouseenter(function(){
+        $(#div button[name="enter").fadeTo('fast',1);
     });
-    $(#button input[name="enter").mouseleave(function(){
-        $(#button input[name="enter").fadeTo('fast',0.5);
+    $(#div button[name="enter").mouseleave(function(){
+        $(#div button[name="enter").fadeTo('fast',0.5);
 });
 });
