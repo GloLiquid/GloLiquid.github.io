@@ -29,10 +29,10 @@
   
     /* Page titles */
   
-       #tagline {
-       position: absolute;
+       #work {
+           position: absolute;
 	   top: 100px;
-	   left: 150px;
+	   left: 100px;
 	   background color: white;
 	   padding: 15px;
 	   text-align:center;
