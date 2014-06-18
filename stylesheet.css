@@ -1,0 +1,130 @@
+/* Page frame */
+  
+    #outer {
+      position: relative;
+	  top: 0px;
+	  width:750px;
+	  height: 500px;
+	  margin: 15px auto;
+	  background-color: white;
+	  background-border: black;
+  }
+
+  #logo {
+  position: absolute;
+  float: left;
+  left: 336px;
+  top: 0;
+  }
+
+#p1 {
+position: absolute;
+float: left;
+left: 0px;
+top: 50px;
+font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+font-size: 25px;
+}
+
+  
+#t1 {
+position: absolute;
+float: left;
+left: 0px;
+top: 125px;
+font-family: sans-serif;
+font-size: 15px;
+width: 250px;
+height: 20px;
+border: 1px solid #cccccc;
+border-radius: 5px;
+padding: 5px; 
+}
+
+#t2 {
+position: absolute;
+float: left;
+left: 0px;
+top: 175px;
+font-family: sans-serif;
+font-size: 15px;
+width: 250px;
+height: 20px;
+border: 1px solid #cccccc;
+border-radius: 5px;
+padding: 5px; 
+}
+
+#p2 {
+position: absolute;
+float: left;
+left: 0px;
+top: 240px;
+font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+font-size: 25px;
+}
+
+#t3 {
+position: absolute;
+float: left;
+left: 0px;
+top: 315px;
+font-family: sans-serif;
+font-size: 15px;
+width: 250px;
+height: 20px;
+border: 1px solid #cccccc;
+border-radius: 5px;
+padding: 5px; 
+}
+
+#p3 {
+position: absolute;
+float: left;
+left: 0px;
+top: 375px;
+font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+font-size: 25px;
+}
+
+#t4 {
+position: absolute;
+float: left;
+left: 0px;
+top: 450px;
+font-family: sans-serif;
+font-size: 15px;
+width: 250px;
+height: 20px;
+border: 1px solid #cccccc;
+border-radius: 5px;
+padding: 5px; 
+}
+
+#t5 {
+position: absolute;
+float: left;
+left: 0px;
+top: 500px;
+font-family: sans-serif;
+font-size: 15px;
+width: 250px;
+height: 20px;
+border: 1px solid #cccccc;
+border-radius: 5px;
+padding: 5px; 
+}
+
+#t6 {
+position: absolute;
+float: left;
+left: 0px;
+top: 550px;
+font-family: sans-serif;
+font-size: 15px;
+width: 250px;
+height: 20px;
+border: 1px solid #cccccc;
+border-radius: 5px;
+padding: 5px; 
+}
