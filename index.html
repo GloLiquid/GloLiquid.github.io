@@ -17,63 +17,6 @@
 
 </script>
 
-<script>
- var running = false;
-	  var startTime;
-	  var timeId;
-
-	  function startPause(){
-	    if(running == false){
-			running = true;
-			startTime = (new Date).getTime(); 
-		
-			timeId=setInterval(increment,25); // really would be better to use requestAnimationFrame.
-
-		document.getElementById("startPause").innerHTML = "Pause";
-		}else{
-			clearInterval(timeId);
-			running = false;
-		  	document.getElementById("startPause").innerHTML = "Resume";
-		}
-	  }
-
-	  function reset(){
-
-	  		if (running)
-	  			clearInterval(timeId);
-
-	        running = false;
-			
-	      	document.getElementById("startPause").innerHTML = "Start";
-			document.getElementById("output").innerHTML = "00:00:00";
-	  }
-
-	  function increment(){
-	    
-	   
-	   	   var time=new Date( (new Date).getTime() - startTime);
-		   
-		   var mins = time.getMinutes();
-		   var secs = time.getSeconds();
-		   var tenths = Math.floor(time.getMilliseconds()/10);
-
-		   if(mins < 10){
-		      mins = "0" + mins;
-		   }
-		   if(secs < 10){
-		      secs = "0" + secs;
-		   }
-		   if (tenths<10)
-		   	tenths = "0"+tenths; 
-
-		   document.getElementById("output").innerHTML = mins + ":" + secs + ":" +  tenths;
-		  
-	  }
-
-
-	  	window.onload=reset;
-</script>
-
 		<title>Home</title>
 		</head>
 	<body>
@@ -82,17 +25,6 @@
 			<input id = "t1" type = "text" placeholder = "Why?">
 
 			<input id = "t2" type = "text" placeholder = "What?">
-			
-<!-- Stopwatch display -->
-	
-      <p id = "output"></p>
-
-<!-- Stopwatch controls -->	  
-	  
-	<div id = "controls">
-     <button id = "startPause" onclick = "startPause()">Start</button>
-	 <button id = "reset" onclick = "reset()">Reset</button>
-    </div>
 			
 					<input id = "t3" type = "text" placeholder = "Successes">
 						   <input id = "t4" type = "text" placeholder = "Failures">
