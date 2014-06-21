@@ -1,0 +1,173 @@
+/***************************************
+GENERAL
+****************************************/
+
+body {
+	font-family: 'Open Sans', sans serif;
+}
+
+#wrapper {
+	max-width: 940px;
+	margin:0 auto;
+	padding: 0 5%;
+}
+
+input {
+	border: 3px solid #cccccc;
+	border-radius: 5px;
+	padding: 5px;
+	max-width: 100%;
+}
+
+
+
+/***************************************
+HEADING
+****************************************/
+
+header {
+	float: left;
+	margin: 0 0 30px 0;
+	padding: 5px 0 0 0;
+	width: 100%;
+}
+
+#logo {
+	text-align: center;
+	margin: 0;
+}
+
+h1 {
+	font-family: 'Changa One', sans-serif;
+	margin: 15px 0;
+	font-size: 1.75em;
+	font-weight: normal;
+	line-height: 0.8em;
+}
+
+h2 {
+	font-size: 0.75em;
+	margin: -5px 0 0;
+	font-weight: normal;
+}
+
+
+
+/***************************************
+FOOTER
+****************************************/
+
+footer {
+	font-size: 0.75em;
+	text-align: center;
+	clear: both;
+	padding-top: 50px;
+	color: #ccc;
+}
+
+.social-icon {
+	width: 40px;
+	height: 40px;
+	margin: 0 5px;
+}
+
+
+
+/***************************************
+PAGE: START
+****************************************/}
+
+#plan {
+	margin: 0;
+	padding: 0;
+}
+
+#plan {
+	float: left;
+	width: 100%;
+	margin: 5%;
+}
+
+#plan{
+	font-size: 2em;
+	color: ccc;
+	line-height: 0.8em;
+}
+
+#questions {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#questions li {
+	float: left;
+	width: 100%;
+	margin: 2.5%;
+}
+
+#questions li {
+	margin: 0;
+	padding: 5%;
+	font-size: 1.25em;
+	color: ccc;
+}
+
+#review {
+	margin: 0;
+	padding: 0;
+}
+
+#review {
+	float: left;
+	width: 100%;
+	margin: 5%;
+}
+
+#review{
+	font-size: 2em;
+	color: ccc;
+	line-height: 0.8em;
+}
+
+#analysis {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#analysis li {
+	float: left;
+	width: 100%;
+	margin: 2.5%;
+}
+
+#analysis li {
+	margin: 0;
+	padding: 5%;
+	font-size: 1.25em;
+	color: ccc;
+}
+
+
+
+/***************************************
+COLORS
+****************************************/
+
+/* site body */
+body {
+	background-color: #fff;
+	color: #999;
+}
+
+/* blue header */
+header {
+	background: #2e80b9;
+	border-color: #5e81a5;
+}
+
+/* logo text */
+h1, h2{
+	color: #fff;
+}
