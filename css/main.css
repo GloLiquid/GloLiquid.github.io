@@ -77,7 +77,7 @@ footer {
 PAGE: START
 ****************************************/}
 
-#plan {
+#plan, #questions, #review, #analysis {
 	margin: 0;
 	padding: 0;
 }
@@ -90,13 +90,10 @@ PAGE: START
 
 #plan{
 	font-size: 2em;
-	color: ccc;
 	line-height: 0.8em;
 }
 
-#questions {
-	margin: 0;
-	padding: 0;
+#questions, #analysis {
 	list-style: none;
 }
 
@@ -110,7 +107,6 @@ PAGE: START
 	margin: 0;
 	padding: 5%;
 	font-size: 1.25em;
-	color: ccc;
 }
 
 #review {
@@ -126,7 +122,6 @@ PAGE: START
 
 #review{
 	font-size: 2em;
-	color: ccc;
 	line-height: 0.8em;
 }
 
@@ -146,9 +141,7 @@ PAGE: START
 	margin: 0;
 	padding: 5%;
 	font-size: 1.25em;
-	color: ccc;
 }
-
 
 
 /***************************************
