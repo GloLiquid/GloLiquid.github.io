@@ -77,30 +77,38 @@ footer {
 PAGE: START
 ****************************************/}
 
-#plan, #questions, #review, #analysis {
-	margin: 0;
 	padding: 0;
 }
 
-#plan, #review, #questions li, #analysis li {
+#review {
 	float: left;
 	width: 100%;
 	margin: 5%;
 }
 
-#plan, #review{
+#review{
 	font-size: 2em;
+	color: ccc;
 	line-height: 0.8em;
 }
 
-#questions, #analysis {
+#analysis {
+	margin: 0;
+	padding: 0;
 	list-style: none;
 }
 
-#questions li, #analysis li {
+#analysis li {
+	float: left;
+	width: 100%;
+	margin: 2.5%;
+}
+
+#analysis li {
 	margin: 0;
 	padding: 5%;
 	font-size: 1.25em;
+	color: ccc;
 }
 
 
