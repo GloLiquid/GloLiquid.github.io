@@ -82,13 +82,13 @@ PAGE: START
 	padding: 0;
 }
 
-#plan {
+#plan, #review {
 	float: left;
 	width: 100%;
 	margin: 5%;
 }
 
-#plan{
+#plan, #review{
 	font-size: 2em;
 	line-height: 0.8em;
 }
@@ -109,27 +109,6 @@ PAGE: START
 	font-size: 1.25em;
 }
 
-#review {
-	margin: 0;
-	padding: 0;
-}
-
-#review {
-	float: left;
-	width: 100%;
-	margin: 5%;
-}
-
-#review{
-	font-size: 2em;
-	line-height: 0.8em;
-}
-
-#analysis {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
 
 #analysis li {
 	float: left;
