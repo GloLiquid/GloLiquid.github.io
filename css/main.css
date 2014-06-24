@@ -77,23 +77,26 @@ footer {
 PAGE: START
 ****************************************/}
 
-#plan, #questions, #review, #analysis {
+#plan {
 	margin: 0;
 	padding: 0;
 }
 
-#plan, #review {
+#plan {
 	float: left;
 	width: 100%;
 	margin: 5%;
 }
 
-#plan, #review{
+#plan{
 	font-size: 2em;
+	color: ccc;
 	line-height: 0.8em;
 }
 
-#questions, #analysis {
+#questions {
+	margin: 0;
+	padding: 0;
 	list-style: none;
 }
 
@@ -107,8 +110,31 @@ PAGE: START
 	margin: 0;
 	padding: 5%;
 	font-size: 1.25em;
+	color: ccc;
 }
 
+#review {
+	margin: 0;
+	padding: 0;
+}
+
+#review {
+	float: left;
+	width: 100%;
+	margin: 5%;
+}
+
+#review{
+	font-size: 2em;
+	color: ccc;
+	line-height: 0.8em;
+}
+
+#analysis {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
 
 #analysis li {
 	float: left;
@@ -120,6 +146,7 @@ PAGE: START
 	margin: 0;
 	padding: 5%;
 	font-size: 1.25em;
+	color: ccc;
 }
 
 
