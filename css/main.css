@@ -82,7 +82,7 @@ PAGE: START
 	padding: 0;
 }
 
-#plan, #review {
+#plan, #review, #questions li, #analysis li {
 	float: left;
 	width: 100%;
 	margin: 5%;
@@ -100,18 +100,6 @@ PAGE: START
 }
 
 #questions li, #analysis li {
-	float: left;
-	width: 100%;
-	margin: 5%;
-}
-
-#questions li {
-	margin: 0;
-	padding: 5%;
-	font-size: 1.25em;
-}
-
-#analysis li {
 	margin: 0;
 	padding: 5%;
 	font-size: 1.25em;
