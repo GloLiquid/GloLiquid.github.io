@@ -90,7 +90,6 @@ PAGE: START
 
 #plan{
 	font-size: 2em;
-	color: ccc;
 	line-height: 0.8em;
 }
 
@@ -110,7 +109,6 @@ PAGE: START
 	margin: 0;
 	padding: 5%;
 	font-size: 1.25em;
-	color: ccc;
 }
 
 #review {
@@ -126,7 +124,6 @@ PAGE: START
 
 #review{
 	font-size: 2em;
-	color: ccc;
 	line-height: 0.8em;
 }
 
@@ -146,7 +143,6 @@ PAGE: START
 	margin: 0;
 	padding: 5%;
 	font-size: 1.25em;
-	color: ccc;
 }
 
 
