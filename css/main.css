@@ -93,7 +93,7 @@ PAGE: START
 	line-height: 0.8em;
 }
 
-#questions {
+#questions, #analysis {
 	margin: 0;
 	padding: 0;
 	list-style: none;
@@ -109,12 +109,6 @@ PAGE: START
 	margin: 0;
 	padding: 5%;
 	font-size: 1.25em;
-}
-
-#analysis {
-	margin: 0;
-	padding: 0;
-	list-style: none;
 }
 
 #analysis li {
