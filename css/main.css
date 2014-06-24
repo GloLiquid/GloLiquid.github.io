@@ -99,7 +99,7 @@ PAGE: START
 	list-style: none;
 }
 
-#questions li {
+#questions li, #analysis li {
 	float: left;
 	width: 100%;
 	margin: 2.5%;
@@ -112,16 +112,11 @@ PAGE: START
 }
 
 #analysis li {
-	float: left;
-	width: 100%;
-	margin: 2.5%;
-}
-
-#analysis li {
 	margin: 0;
 	padding: 5%;
 	font-size: 1.25em;
 }
+
 
 
 /***************************************
