@@ -77,6 +77,44 @@ footer {
 PAGE: START
 ****************************************/}
 
+#plan {
+	margin: 0;
+	padding: 0;
+}
+
+#plan {
+	float: left;
+	width: 100%;
+	margin: 5%;
+}
+
+#plan{
+	font-size: 2em;
+	color: ccc;
+	line-height: 0.8em;
+}
+
+#questions {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#questions li {
+	float: left;
+	width: 100%;
+	margin: 2.5%;
+}
+
+#questions li {
+	margin: 0;
+	padding: 5%;
+	font-size: 1.25em;
+	color: ccc;
+}
+
+#review {
+	margin: 0;
 	padding: 0;
 }
 
