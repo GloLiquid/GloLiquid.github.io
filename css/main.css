@@ -77,18 +77,18 @@ footer {
 PAGE: START
 ****************************************/}
 
-#plan {
+#plan, #review {
 	margin: 0;
 	padding: 0;
 }
 
-#plan {
+#plan, #review {
 	float: left;
 	width: 100%;
 	margin: 5%;
 }
 
-#plan{
+#plan, #review {
 	font-size: 2em;
 	line-height: 0.8em;
 }
@@ -109,22 +109,6 @@ PAGE: START
 	margin: 0;
 	padding: 5%;
 	font-size: 1.25em;
-}
-
-#review {
-	margin: 0;
-	padding: 0;
-}
-
-#review {
-	float: left;
-	width: 100%;
-	margin: 5%;
-}
-
-#review{
-	font-size: 2em;
-	line-height: 0.8em;
 }
 
 #analysis {
