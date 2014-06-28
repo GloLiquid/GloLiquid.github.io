@@ -115,7 +115,7 @@ PAGE: START
 
 #subject {
 	float: left;
-	width: 75%;
+	width: 45%;
 	margin: 5%;
 }
 
@@ -131,7 +131,7 @@ PAGE: START
 
 #questions li {
 	float: left;
-	width: 75%;
+	width: 45%;
 	margin: 2.5%;
 }
 
