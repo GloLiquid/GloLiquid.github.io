@@ -163,7 +163,7 @@ body {
 /* blue header */
 header {
 	background: #2e80b9;
-	border-color: #5e81a5;
+	border-color: #fff;
 }
 
 /* nav background on mobile */
@@ -173,7 +173,7 @@ nav {
 
 /* logo text */
 h1, h2 {
-	color: #fff;
+	color: #5e81a5;
 }
 
 /* links */
