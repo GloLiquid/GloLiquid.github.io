@@ -12,6 +12,10 @@ body {
 	padding: 0 5%;
 }
 
+a {
+	text-decoration: none;
+}
+
 input {
 	border: 3px solid #cccccc;
 	border-radius: 5px;
@@ -54,6 +58,33 @@ h2 {
 
 
 /***************************************
+NAVIGATION
+****************************************/
+
+nav {
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+}
+
+nav ul {
+	list-style: none;
+	margin:0 10px;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	font-weight: 800;
+	padding: 15px 10px;
+}
+
+
+
+/***************************************
 FOOTER
 ****************************************/
 
@@ -66,8 +97,8 @@ footer {
 }
 
 .social-icon {
-	width: 40px;
-	height: 40px;
+	width: 20px;
+	height: 20px;
 	margin: 0 5px;
 }
 
@@ -77,19 +108,18 @@ footer {
 PAGE: START
 ****************************************/
 
-#plan {
+#subject {
 	margin: 0;
 	padding: 0;
 }
 
-#plan {
+#subject {
 	float: left;
-	width: 100%;
+	width: 95%;
 	margin: 5%;
 }
 
-#plan{
-	font-size: 2em;
+#subject {
 	line-height: 0.8em;
 }
 
@@ -101,49 +131,45 @@ PAGE: START
 
 #questions li {
 	float: left;
-	width: 75%;
+	width: 95%;
 	margin: 2.5%;
 }
 
 #questions li {
 	margin: 0;
 	padding: 5%;
-	font-size: 1.25em;
+	font-size: 0.9em;
 }
 
-#review {
-	margin: 0;
-	padding: 0;
-}
 
-#review {
-	float: left;
-	width: 100%;
-	margin: 5%;
-}
 
-#review {
-	font-size: 2em;
-	line-height: 0.8em;
-}
+/***************************************
+PAGE: CONTACT
+****************************************/
 
-#analysis {
-	margin: 0;
-	padding: 0;
+.contact-info {
 	list-style: none;
-}
-
-#analysis li {
-	float: left;
-	width: 75%;
-	margin: 2.5%;
-}
-
-#analysis li {
+	padding: 0;
 	margin: 0;
-	padding: 5%;
-	font-size: 1.25em;
-	}
+	font-size: 0.9em;
+}
+
+.contact-info a {
+	display: block;
+	min-height: 20px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding: 0 0 0 30px;
+	margin: 0 0 10px;
+}
+
+.contact-info li.mail a {
+	background-image: url('../img/mail.png');
+}
+
+.contact-info li.twitter a {
+	background-image: url('../img/twitter.png');
+}
 
 
 
@@ -163,7 +189,33 @@ header {
 	border-color: #5e81a5;
 }
 
+/* nav background on mobile */
+nav {
+	background: #17405C;
+}
+
 /* logo text */
-h1, h2{
+h1, h2 {
 	color: #fff;
+}
+
+/* links */
+a {
+	color: #2e80b9;
+}
+
+/* nav link */
+nav a, nav a:visited {
+	color: #fff;
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+	color: #abcce3;
+}
+
+/* page headers */
+
+h3 {
+	color: ;
 }
