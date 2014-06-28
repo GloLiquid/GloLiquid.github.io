@@ -162,7 +162,7 @@ body {
 
 /* blue header */
 header {
-	background: #2e80b9;
+	background: #fff;
 	border-color: #fff;
 }
 
@@ -173,7 +173,7 @@ nav {
 
 /* logo text */
 h1, h2 {
-	color: #fff;
+	color: #2e80b9;
 }
 
 /* links */
