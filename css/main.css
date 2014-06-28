@@ -150,7 +150,7 @@ COLORS
 /* site body */
 body {
 	background-color: #fff;
-	color: #abcce3;
+	color: #17405C;
 }
 
 /* blue header */
@@ -187,5 +187,5 @@ nav a.selected, nav a:hover {
 /* page headers */
 
 h3 {
-	color: #17405C;
+	color: #abcce3;
 }
