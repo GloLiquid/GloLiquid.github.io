@@ -157,7 +157,7 @@ COLORS
 /* site body */
 body {
 	background-color: #fff;
-	color: #17405C;
+	color: #999;
 }
 
 /* blue header */
@@ -173,7 +173,7 @@ nav {
 
 /* logo text */
 h1, h2 {
-	color: #5e81a5;
+	color: #fff;
 }
 
 /* links */
