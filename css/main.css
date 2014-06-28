@@ -113,16 +113,14 @@ footer {
 PAGE: START
 ****************************************/
 
-#subject, #questions {
+#subject {
 	margin: 0;
 	padding: 0;
 }
 
-#subject, #questions {
+#subject {
 	float: left;
 	width: 95%;
-}
-#subject {
 	margin: 5%;
 }
 
@@ -131,10 +129,14 @@ PAGE: START
 }
 
 #questions {
+	margin: 0;
+	padding: 0;
 	list-style: none;
 }
 
 #questions li {
+	float: left;
+	width: 95%;
 	margin: 2.5%;
 }
 
