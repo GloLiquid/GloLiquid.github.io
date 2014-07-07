@@ -19,60 +19,87 @@
 	</head>
 	<body>
 		<header>
-			<a href="index.html" id="logo">
-				<h1>Startwatch</h1>
+			<a id="logo">
+				<h1>Startwatch Prototype</h1>
 				<h2>Do Awesome Stuff</h2>
 			</a>
 			<nav>
 				<ul>
-					<li><a href="index.html" class="selected">Prototype</a></li>
+					<li><a class="selected">Build 5</a></li>
 				</ul>
 			</nav>
 		</header>
 		<div id="wrapper">
 			<section id="primary">
-				<h3 id="subject">Day 1</h3>
-				<ul id="questions">
-					<li>You’re sat on a desert island,</br>
-						Alone.</br>
-						Serenaded by the sound of the waves,</br>
-						As they crash along the shore,</br>
-						Wrapped in a cool breeze.</br>
-						Suddenly,</br>
-						From within,</br>
-						A voice asks...</li>
-					<li><h4>What do you dream of doing?</h4></li>
-					<li>
-						<textarea rows="2" cols="25" placeholder="Why is this your passion?"></textarea>
-					</li>
-					<li>
-						<textarea rows="8" cols="25" placeholder="How will you accomplish it?"></textarea>
-					</li>
-					<li>
-						<textarea rows="2" cols="25" placeholder="What's the first step?"></textarea>
-					</li>
-					<li><h4>Start</h4></li>
+				<form action="#" method="POST" name="plan">
+				<h3 id="subject">Start</h3>
+				<div id="questions">					
+		
+							<fieldset>
+								<legend align="center">Why?</legend>
+								<label for="why">Why is this important?<br>
+									State your cause.</label><br>
+								<textarea name="why" id="why" rows="10" cols="30"></textarea><br>
+								</fieldset>
+		
+							<br>
+							
+							<fieldset>
+								<legend align="center">How?</legend>
+								<label for="why">How will you do this?<br>
+								Plan the first step.</label><br>
+								<textarea name="why" id="why" rows="10" cols="30"></textarea><br>
+							</fieldset>
+		
+							<br>
+							
+							<fieldset>
+								<legend align="center">What?</legend>
+								<label for="why">What's first?<br>
+								State your objective.</label><br>
+								<textarea name="why" id="why" rows="10" cols="30"></textarea><br>
+							</fieldset>
+		
+							<br>
+							
+							</form>
+							
+				</div>
+				
 			</section>
 			<section id="secondary">
 				<h3 id="subject">Review</h3>
-				<ul id="questions">
-					<li>Everything you do</br>
-						Sends out ripples</br>
-						Of cause and effect.</li>
-					<li>
-						<h4>Ask yourself</h4>
-					</li>
-					<li>
-						<textarea rows="4" cols="25" placeholder="What went well?"></textarea>
-					</li>
-					<li>
-						<textarea rows="4" cols="25" placeholder="What went bad?"></textarea>
-					</li>
-					<li>
-						<textarea rows="2" cols="25" placeholder="What's the next step?"></textarea>
-					</li>
-					<li>Devote time each day to fulfilling your dream.</li>
-				</ul>
+				<div id="questions">
+					<fieldset>
+						<legend align="center">Good</legend>
+						<label for="why">What went well?<br>
+						List the successes.</label><br>
+						<textarea name="why" id="why" rows="10" cols="30"></textarea><br>
+					</fieldset>
+		
+					<br>
+		
+					<fieldset>
+						<legend align="center">Bad</legend>
+						<label for="why">What went badly?<br>
+						List the failures.</label><br>
+						<textarea name="why" id="why" rows="10" cols="30"></textarea><br>
+					</fieldset>
+		
+					<br>
+
+					<fieldset>
+						<legend align="center">Next</legend>
+						<label for="why">What's next?<br>
+						State your next objective.</label><br>
+						<textarea name="why" id="why" rows="10" cols="30"></textarea><br>
+					</fieldset>
+		
+					<br>
+
+				</form>
+				
+				</div>
 			</section>
 			<footer>
 				<a href="http://twitter.com/startwatchapp"><img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
