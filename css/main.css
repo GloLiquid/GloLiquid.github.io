@@ -128,6 +128,9 @@ PAGE: START
 	float: left;
 	width: 95%;
 }
+#subject {
+	margin: 5%;
+}
 
 #subject {
 	line-height: 0.8em;
