@@ -140,18 +140,8 @@ PAGE: START
 	list-style: none;
 }
 
-#questions li {
+#questions p {
 	margin: 2.5%;
-}
-
-#questions li {
-	margin: 0;
-	padding: 5%;
-	font-size: 0.9em;
-}
-
-#textarea  {
-	width: 100%;
 }
 
 
