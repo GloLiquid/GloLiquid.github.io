@@ -2,10 +2,6 @@
 GENERAL
 ****************************************/
 
-body {
-	font-family: 'Open Sans', sans serif;
-}
-
 #wrapper {
 	max-width: 940px;
 	margin:0 auto;
@@ -42,17 +38,13 @@ header {
 }
 
 h1 {
-	font-family: 'Changa One', sans-serif;
-	margin: 15px 0;
-	font-size: 1.75em;
-	font-weight: normal;
-	line-height: 0.8em;
+	font: 'FF-Speak-Web', sans-serif normal 1em 1.5em;
+	text-align: center;
 }
 
 h2 {
-	font-size: 0.75em;
-	margin: -5px 0 0;
-	font-weight: normal;
+	font: 'ff-effra', sans-serif normal 0.75em 1.5em;
+	text-align: center;
 }
 
 
@@ -61,26 +53,6 @@ h2 {
 NAVIGATION
 ****************************************/
 
-nav {
-	text-align: center;
-	padding: 10px 0;
-	margin: 20px 0 0;
-}
-
-nav ul {
-	list-style: none;
-	margin:0 10px;
-	padding: 0;
-}
-
-nav li {
-	display: inline-block;
-}
-
-nav a {
-	font-weight: 800;
-	padding: 15px 10px;
-}
 
 
 
@@ -93,13 +65,6 @@ footer {
 	text-align: center;
 	clear: both;
 	padding-top: 50px;
-	color: #ccc;
-}
-
-.social-icon {
-	width: 20px;
-	height: 20px;
-	margin: 0 5px;
 }
 
 
@@ -108,67 +73,27 @@ footer {
 PAGE: START
 ****************************************/
 
-#subject {
-	margin: 0;
-	padding: 0;
+h3 {
+	font: 'ff-effra', sans-serif 2em 1.5em;
+	margin: 0px;
+	text-align: center;
 }
 
-#subject {
-	float: left;
-	width: 95%;
-	margin: 5%;
-}
-
-#subject {
-	line-height: 0.8em;
-}
-
-#questions {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-
-#questions li {
-	float: left;
-	width: 95%;
-	margin: 2.5%;
-}
-
-#questions li {
-	margin: 0;
-	padding: 5%;
-	font-size: 0.9em;
-}
-
-
-
-/***************************************
-PAGE: CONTACT
-****************************************/
-
-.contact-info {
-	list-style: none;
-	padding: 0;
-	margin: 0;
-	font-size: 0.9em;
-}
-
-.contact-info a {
-	display: block;
-	min-height: 20px;
-	background-repeat: no-repeat;
-	background-size: 20px 20px;
-	padding: 0 0 0 30px;
+h4{
+	font: 'ff-effra', sans-serif 1.25em 1.5em;
 	margin: 0 0 10px;
+	text-align: center;
 }
 
-.contact-info li.mail a {
-	background-image: url('../img/mail.png');
+.todayprompt {
+	font: 'ff-effra', sans-serif 2em;
+	text-align: center;	
 }
 
-.contact-info li.twitter a {
-	background-image: url('../img/twitter.png');
+.task {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 
@@ -185,8 +110,8 @@ body {
 
 /* blue header */
 header {
-	background: #2e80b9;
-	border-color: #5e81a5;
+	background: #fff;
+	border-color: #fff;
 }
 
 /* nav background on mobile */
@@ -196,26 +121,21 @@ nav {
 
 /* logo text */
 h1, h2 {
-	color: #fff;
-}
-
-/* links */
-a {
 	color: #2e80b9;
-}
-
-/* nav link */
-nav a, nav a:visited {
-	color: #fff;
-}
-
-/* selected nav link */
-nav a.selected, nav a:hover {
-	color: #abcce3;
 }
 
 /* page headers */
 
 h3 {
-	color: ;
+	color: #5A9CC5;
+}
+
+h4 {
+
+	color: #5A9CC5;
+}
+
+/* footer */
+footer {
+color: #ccc;
 }
