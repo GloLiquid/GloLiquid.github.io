@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /***************************************
 GENERAL
 ****************************************/
@@ -139,3 +140,198 @@ h4 {
 footer {
 color: #ccc;
 }
+=======
+/***************************************
+GENERAL
+****************************************/
+
+body {
+	font-family: 'Open Sans', sans serif;
+}
+
+#wrapper {
+	max-width: 940px;
+	margin:0 auto;
+	padding: 0 5%;
+}
+
+a {
+	text-decoration: none;
+}
+
+input {
+	border: 3px solid #cccccc;
+	border-radius: 5px;
+	padding: 5px;
+	max-width: 100%;
+}
+
+h3 {
+	font-size: 1.5em;
+	margin: 0px;
+}
+
+h4{
+	
+	font-size: 1.25em;
+	margin: 0 0 10px;
+}
+
+
+
+/***************************************
+HEADING
+****************************************/
+
+header {
+	float: left;
+	margin: 0 0 30px 0;
+	padding: 5px 0 0 0;
+	width: 100%;
+}
+
+#logo {
+	text-align: center;
+	margin: 0;
+}
+
+h1 {
+	font-family: 'Changa One', sans-serif;
+	margin: 15px 0;
+	font-size: 1.75em;
+	font-weight: normal;
+	line-height: 0.8em;
+}
+
+h2 {
+	font-size: 0.75em;
+	margin: -5px 0 0;
+	font-weight: normal;
+}
+
+
+
+/***************************************
+NAVIGATION
+****************************************/
+
+nav {
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+}
+
+nav ul {
+	list-style: none;
+	margin:0 10px;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	font-weight: 800;
+	padding: 15px 10px;
+}
+
+
+
+/***************************************
+FOOTER
+****************************************/
+
+footer {
+	font-size: 0.75em;
+	text-align: center;
+	clear: both;
+	padding-top: 50px;
+	color: #ccc;
+}
+
+
+
+/***************************************
+PAGE: START
+****************************************/
+
+#subject, #questions {
+	margin: 0;
+	padding: 0;
+}
+
+#subject, #questions {
+	float: left;
+	width: 95%;
+}
+#subject {
+	margin: 5%;
+}
+
+#subject {
+	line-height: 0.8em;
+}
+
+#questions {
+	list-style: none;
+}
+
+#questions p {
+	margin: 2.5%;
+}
+
+
+
+/***************************************
+COLORS
+****************************************/
+
+/* site body */
+body {
+	background-color: #fff;
+	color: #999;
+}
+
+/* blue header */
+header {
+	background: #fff;
+	border-color: #fff;
+}
+
+/* nav background on mobile */
+nav {
+	background: #17405C;
+}
+
+/* logo text */
+h1, h2 {
+	color: #2e80b9;
+}
+
+/* links */
+a {
+	color: #2e80b9;
+}
+
+/* nav link */
+nav a, nav a:visited {
+	color: #fff;
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+	color: #abcce3;
+}
+
+/* page headers */
+
+h3 {
+	color: #5A9CC5;
+}
+
+h4 {
+	
+	color: #FF4951;
+}
+>>>>>>> FETCH_HEAD
