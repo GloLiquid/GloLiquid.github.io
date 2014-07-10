@@ -66,15 +66,9 @@ footer {
 PAGE: START
 ****************************************/
 
-h3 {
+p {
 	font: 'ff-effra', sans-serif 2em 1.5em;
 	margin: 0px;
-	text-align: center;
-}
-
-h4{
-	font: 'ff-effra', sans-serif 1.25em 1.5em;
-	margin: 0 0 10px;
 	text-align: center;
 }
 
