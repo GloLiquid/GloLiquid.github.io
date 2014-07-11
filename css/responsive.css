@@ -1,51 +1,50 @@
 @media screen and (min-width: 480px) {
-
-	/***************************************
-	ONE COLUMN LAYOUT
-	****************************************/
-	
-	#primary {
-		width: 45%;
-		float: left;
-	}
-
-	#secondary {
-		width: 45%;
-		float: right;
-	}
+ 
+    /***************************************
+    ONE COLUMN LAYOUT
+    ****************************************/
+     
+    #primary {
+        width: 45%;
+        float: left;
 }
-
-	
+ 
+    #secondary {
+        width: 45%;
+        float: right;
+}
+ 
+     
 @media screen and (min-width: 660px) {
-	
-	/***************************************
-	HEADER
-	****************************************/
-	
-	nav {
-		background: none;
-		float: right;
-		font-size: 1.125em;
-		margin-right: 5%;
-		text-align: right;
-		width: 45%;
-		
-	}
-	
-	#logo {
-		float: left;
-		margin-left: 5%;
-		text-align: left;
-		width: 45%;
-	}
-	
-	h1 {
-		font-size: 2.5em;
-		margin-bottom: 20px;
-	}
-	
-	header {
-		border-bottom: 5px solid #17405C;
-		margin-bottom: 60px;
-	}
+     
+    /***************************************
+    HEADER
+    ****************************************/
+     
+    nav {
+        background: none;
+        float: right;
+        font-size: 1.125em;
+        margin-right: 5%;
+        text-align: right;
+        width: 45%;
+         
+    }
+     
+    #logo {
+        float: left;
+        margin-left: 5%;
+        text-align: left;
+        width: 45%;
+    }
+     
+    h1 {
+        font-size: 2.5em;
+        margin-bottom: 20px;
+    }
+     
+    header {
+        border-bottom: 5px solid #17405C;
+        margin-bottom: 60px;
+    }
 }
