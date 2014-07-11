@@ -125,6 +125,10 @@ PAGE: START
 PAGE: CONTACT
 ****************************************/
 
+h3 {
+	margin: 0;
+}
+
 .contact-info {
 	list-style: none;
 	padding: 0;
