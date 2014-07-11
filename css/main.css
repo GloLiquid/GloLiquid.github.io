@@ -2,6 +2,10 @@
 GENERAL
 ****************************************/
 
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
 #wrapper {
 	max-width: 940px;
 	margin:0 auto;
@@ -38,21 +42,44 @@ header {
 }
 
 h1 {
-	margin: 0;
-	font: 'ff-Speak-Web', sans-serif;
-	font-width: normal;
-	font-size: 3em;
-	line-height: 1.5em;
-	text-align: center;
+	font-family: 'Changa One', sans-serif;
+	margin: 15px 0;
+	font-size: 1.75em;
+	font-weight: normal;
+	line-height: 0.8em;
 }
 
 h2 {
-	margin: 0;
-	font: 'ff-effra', sans-serif;
-	font-width: normal;
-	font-size: 1.25em;
-	line-height: 1.5em;
+	font-size: 0.75em;
+	margin: -5px 0 0;
+	font-weight: normal;
+}
+
+
+
+/***************************************
+NAVIGATION
+****************************************/
+
+nav {
 	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+}
+
+nav ul {
+	list-style: none;
+	margin:0 10px;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	font-weight: 800;
+	padding: 15px 10px;
 }
 
 
@@ -74,30 +101,55 @@ footer {
 PAGE: START
 ****************************************/
 
-p {
+.task, .first {
 	position: relative;
 	margin: 0 0 3em 0;
 	
 }
 
-p {	font-family: 'ff-effra', sans-serif;
-	line-height: 1.5em;
-	text-align: center;	
-}
-
-#today {	
+.task {	
+	text-align: center;
 	font-size: 1.75em;
-	line-height: 1.5em;
 }
 
-.task {
+.first {
 	display: block;
-	font-size: 1em;
 	margin-left: auto;
 	margin-right: auto;
-	line-height: 1.5em;
+	font-size: 1em;
+	margin-top: -30px;
 }
 
+
+
+/***************************************
+PAGE: CONTACT
+****************************************/
+
+.contact-info {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 0.9em;
+}
+
+.contact-info a {
+	display: block;
+	min-height: 20px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding: 0 0 0 30px;
+	margin: 0 0 10px;
+}
+
+.contact-info li.mail a {
+	background-image: url('../img/mail.png');
+}
+
+.contact-info li.twitter a {
+	background-image: url('../img/twitter.png');
+}
+	  
 
 
 /***************************************
@@ -126,8 +178,20 @@ h1, h2 {
 	color: #2e80b9;
 }
 
-/* input */
+/* links */
+a {
+	color: #2e80b9;
+}
 
+/* nav link */
+nav a, nav a:visited {
+	color: #2e80b9;
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+	color: #abcce3;
+}
 
 /* footer */
 footer {
