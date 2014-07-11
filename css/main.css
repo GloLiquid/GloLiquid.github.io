@@ -163,8 +163,8 @@ body {
 
 /* blue header */
 header {
-	background: black;
-	border-color: black;
+	background: #fff;
+	border-color: #fff;
 }
 
 /* nav background on mobile */
