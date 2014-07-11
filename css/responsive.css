@@ -7,11 +7,12 @@
 	#primary {
 		width: 45%;
 		float: left;
-}
+	}
 
 	#secondary {
 		width: 45%;
 		float: right;
+	}
 }
 
 	
@@ -47,3 +48,4 @@
 		border-bottom: 5px solid #17405C;
 		margin-bottom: 60px;
 	}
+}
