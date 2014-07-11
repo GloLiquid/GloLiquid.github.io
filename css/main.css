@@ -101,7 +101,7 @@ footer {
 PAGE: START
 ****************************************/
 
-.task, .first {
+.task .first {
 	position: relative;
 	margin: 0 0 3em 0;
 	
