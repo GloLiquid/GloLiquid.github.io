@@ -4,16 +4,6 @@
 	ONE COLUMN LAYOUT
 	****************************************/
 	
-	#primary {
-		width: 45%;
-		float: left;
-	}
-
-	#secondary {
-		width: 45%;
-		float: right;
-	}
-}
 
 	
 @media screen and (min-width: 660px) {
