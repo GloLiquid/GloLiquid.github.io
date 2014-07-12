@@ -1,9 +1,7 @@
-//Problem: Prevent users from being overwhelmed with information.
+//Problem: The information entered by the user is lost when the user finishes an objective.
+	
+//Solution: Print out the information on the page.
 
-//Solution: Hide each subsequent step and reveal them through user interaction.
-
-//1, Hide step
-//2, Add a button
-//3, When button pressed
-	//3.1, Show next step
-	// 3.2, Get rid of button
+//1, Store information
+//2, When button pressed
+//3, Print out information
