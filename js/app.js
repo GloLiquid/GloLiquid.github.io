@@ -1,9 +1,5 @@
 //Problem: Prevent users from being overwhelmed with information.
 
-//Hide task
-//Show task slowly
-$(".task").hide().show("slow");
-
 //Solution: Hide each subsequent step and reveal them through user interaction.
 
 //1, Hide step
