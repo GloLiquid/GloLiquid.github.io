@@ -2,6 +2,6 @@
 	
 //Solution: Print out the information on the page.
 
-//1, Store information
-//2, When button pressed
+//1, When button pressed
+//2, Store information
 //3, Print out information
