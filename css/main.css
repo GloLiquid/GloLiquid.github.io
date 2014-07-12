@@ -114,7 +114,7 @@ PAGE: START
 	text-align: center;
 }
 
-.why {
+.why, .express, .roadmap, .set {
 	margin-top: -40px;
 }
 
