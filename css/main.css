@@ -101,7 +101,7 @@ footer {
 PAGE: START
 ****************************************/
 
-p {
+.intro {
 	margin-top: -50px;
 	margin-bottom: -20px;
 }
@@ -111,7 +111,7 @@ p {
 	font-size: 1.75em;
 }
 
-p, .task, h4, .express, .snappy,.roadmap, .set {	
+.intro, .task, h4, .express, .snappy,.roadmap, .set {	
 	text-align: center;
 }
 
