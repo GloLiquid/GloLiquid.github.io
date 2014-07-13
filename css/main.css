@@ -101,27 +101,25 @@ footer {
 PAGE: START
 ****************************************/
 
-.task, .first, .second, .third, .express, .roadmap, .set {
-	margin: 0 0 3em 0;
-	
+p {
+	margin-top: -50px;
+	margin-bottom: -20px;
 }
 
 .task {
+	margin: 0 0 3em 0;
 	font-size: 1.75em;
 }
 
-.task, h4, .express, .roadmap, .set {	
+p, .task, h4, .express, .snappy,.roadmap, .set {	
 	text-align: center;
 }
 
-.why {
-	margin-top: -40px;
-}
-
-.first, .second, .third, .express, .roadmap, .set {
+.zero, .first, .second, .third, .express, .snappy, .roadmap, .set {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 2em;
 	font-size: 1em;
 	margin-top: 30px;
 }

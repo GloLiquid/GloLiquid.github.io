@@ -4,6 +4,23 @@
 //Hide hint
 $("form span").hide();
 
+function zeroEvent() {
+	//Find out if input is valid
+	if($(this).val().length > 8) {
+	//Hide hint if valid
+	$(this).next().hide();
+	} else {
+	//Else show hint
+	$(this).next().show();
+	}
+}
+
+//When event happens on why, how, what
+$("#zero").focus(zeroEvent).keyup(zeroEvent);
+
+//Hide hint
+$("form span").hide();
+
 function firstEvent() {
 	//Find out if input is valid
 	if($(this).val().length > 8) {
