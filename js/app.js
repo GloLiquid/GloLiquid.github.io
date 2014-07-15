@@ -18,6 +18,9 @@ function answerEvent() {
 //When event happens on why, how, what
 $("#answer").focus(answerEvent).keyup(answerEvent);
 
+//Problem: The time it takes to complete tasks can be demoralising
+//Solution: Build an alert system to allow users to measure their progress at set intervals
+
 //Problem: The information entered by the user is lost when the user finishes an objective.
 //Solution: Print out the information on the page.
 
