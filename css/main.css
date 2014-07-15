@@ -130,7 +130,7 @@ PAGE: START
 	text-align: center;
 }
 
-.answer, .hint {
+.answer, .answerb, .answern, .hint {
 	display: block;
 	margin: 30px auto 2em auto;
 	font-size: 1em;

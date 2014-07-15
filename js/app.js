@@ -18,6 +18,42 @@ function answerEvent() {
 //When event happens on why, how, what
 $("#answer").focus(answerEvent).keyup(answerEvent);
 
+//Hide hint
+$("form span").hide();
+
+function answerbEvent() {
+	//Find out if input is valid
+	if($(this).val().length > 15) {
+	//Hide hint if valid
+	$(this).next().hide();
+	} else {
+	//Else show hint
+	$(this).next().show();
+	}
+}
+
+//When event happens on why, how, what
+$("#answerb").focus(answerbEvent).keyup(answerbEvent);
+
+
+//Hide hint
+$("form span").hide();
+
+function answernEvent() {
+	//Find out if input is valid
+	if($(this).val().length > 15) {
+	//Hide hint if valid
+	$(this).next().hide();
+	} else {
+	//Else show hint
+	$(this).next().show();
+	}
+}
+
+//When event happens on why, how, what
+$("#answern").focus(answernEvent).keyup(answernEvent);
+
+
 //Problem: The time it takes to complete tasks can be demoralising
 //Solution: Build an alert system to allow users to measure their progress at set intervals
 
