@@ -4,9 +4,9 @@
 //Hide hint
 $("form span").hide();
 
-function zeroEvent() {
+function answerEvent() {
 	//Find out if input is valid
-	if($(this).val().length > 8) {
+	if($(this).val().length > 15) {
 	//Hide hint if valid
 	$(this).next().hide();
 	} else {
@@ -16,63 +16,9 @@ function zeroEvent() {
 }
 
 //When event happens on why, how, what
-$("#zero").focus(zeroEvent).keyup(zeroEvent);
-
-//Hide hint
-$("form span").hide();
-
-function firstEvent() {
-	//Find out if input is valid
-	if($(this).val().length > 8) {
-	//Hide hint if valid
-	$(this).next().hide();
-	} else {
-	//Else show hint
-	$(this).next().show();
-	}
-}
-
-//When event happens on why, how, what
-$("#first").focus(firstEvent).keyup(firstEvent);
-
-
-//Hide hint
-$("form span").hide();
-
-function secondEvent() {
-	//Find out if input is valid
-	if($(this).val().length > 8) {
-	//Hide hint if valid
-	$(this).next().hide();
-	} else {
-	//Else show hint
-	$(this).next().show();
-	}
-}
-
-//When event happens on why, how, what
-$("#second").focus(secondEvent).keyup(secondEvent);
-
-//Hide hint
-$("form span").hide();
-
-function thirdEvent() {
-	//Find out if input is valid
-	if($(this).val().length > 8) {
-	//Hide hint if valid
-	$(this).next().hide();
-	} else {
-	//Else show hint
-	$(this).next().show();
-	}
-}
-
-//When event happens on why, how, what
-$("#third").focus(thirdEvent).keyup(thirdEvent);
-
+$("#answer").focus(answerEvent).keyup(answerEvent);
 
 //Problem: The information entered by the user is lost when the user finishes an objective.
-	
 //Solution: Print out the information on the page.
 
 //When button pressed

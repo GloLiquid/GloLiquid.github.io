@@ -61,19 +61,19 @@ h2 {
 NAVIGATION
 ****************************************/
 
-nav {
+nav, .breadcrumb{
 	text-align: center;
 	padding: 10px 0;
 	margin: 20px 0 0;
 }
 
-nav ul {
+nav ul, .breadcrumb ul {
 	list-style: none;
 	margin:0 10px;
 	padding: 0;
 }
 
-nav li {
+nav li, .breadcrumb li {
 	display: inline-block;
 }
 
@@ -82,7 +82,23 @@ nav a {
 	padding: 15px 10px;
 }
 
+.breadcrumb a {
+	padding: 15px 10px;
+}
 
+#container {
+margin: -70px 0 20px 0;
+}
+
+.button {
+    padding: 5px 10px;
+    font: 1.25em sans-serif;
+	border-radius: 45px;
+	text-align: center;
+	display: block;
+	margin: auto;
+	width: 50px;
+}
 
 /***************************************
 FOOTER
@@ -102,8 +118,7 @@ PAGE: START
 ****************************************/
 
 .intro {
-	margin-top: -50px;
-	margin-bottom: -20px;
+	margin: 0px 0 -20px 0;
 }
 
 .task {
@@ -111,17 +126,14 @@ PAGE: START
 	font-size: 1.75em;
 }
 
-.intro, .task, h4, .express, .snappy,.roadmap, .set {	
+.intro, .task, h4, .hint {	
 	text-align: center;
 }
 
-.zero, .first, .second, .third, .express, .snappy, .roadmap, .set {
+.answer, .hint {
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 2em;
+	margin: 30px auto 2em auto;
 	font-size: 1em;
-	margin-top: 30px;
 }
 
 
@@ -196,9 +208,29 @@ nav a, nav a:visited {
 	color: #2e80b9;
 }
 
-/* selected nav link */
+/* selected nav link,*/
 nav a.selected, nav a:hover {
 	color: #abcce3;
+}
+
+/* breadcrum link */
+.breadcrumb, .breadcrumb a:visited {
+	color: #2e80b9;
+}
+/* breadcrumb link selected */
+.breadcrumb a.selected, .breadcrumb a:hover {
+	color: #abcce3;
+}
+
+/* button */
+.button {
+	background-color: #2e80b9;
+	color: #fff;
+}
+
+/* selected button */
+.button:hover {
+	background-color: #abcce3;
 }
 
 /* footer */
