@@ -55,7 +55,21 @@ $("#answern").focus(answernEvent).keyup(answernEvent);
 
 
 //Problem: The time it takes to complete tasks can be demoralising
-//Solution: Build an alert system to allow users to measure their progress at set intervals
+//Solution: Build a timer to allow users to measure their progress at set intervals
+
+//Set start time of 10 minutes
+
+//Show minutes, seconds and miliseconds (10:00:00)
+
+//When button pressed
+
+//Start timer
+
+//Count down from 10:00:00 to 00:00:00
+
+//When button pressed
+
+//Stop timer
 
 //Problem: The information entered by the user is lost when the user finishes an objective.
 //Solution: Print out the information on the page.
