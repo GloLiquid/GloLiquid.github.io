@@ -92,12 +92,12 @@ margin: -70px 0 20px 0;
 
 .button {
     padding: 5px 10px;
-    font: 1.25em sans-serif;
+    font: 1.5em sans-serif;
 	border-radius: 45px;
 	text-align: center;
 	display: block;
 	margin: auto;
-	width: 50px;
+	width: 80px;
 }
 
 /***************************************
@@ -114,7 +114,7 @@ footer {
 
 
 /***************************************
-PAGE: START
+PAGE: HOME
 ****************************************/
 
 .intro {
@@ -134,6 +134,61 @@ PAGE: START
 	display: block;
 	margin: 30px auto 2em auto;
 	font-size: 1em;
+}
+
+
+
+/***************************************
+PAGE: START
+****************************************/
+
+ /* Stopwatch design */
+	  
+#runner {
+	display: block;
+	margin: 30px auto 30px auto;
+	text-align: center;
+	font-size: 3em;
+}
+		
+/* Stopwatch controls */
+	
+#controls {
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+}
+
+#controls ul {
+	list-style: none;
+	margin:0 10px;
+	padding: 0;
+}
+
+#controls li {
+	display: inline-block;
+}
+		
+#start {
+    padding: 5px 10px;
+    font: 1.5em sans-serif;
+	border-radius: 45px;
+	border: 1px solid;
+	text-align: center;
+	display: block;
+	margin: 30px auto 30px auto;
+	width: 80px;
+}
+
+#stop {
+    padding: 5px 10px;
+    font: 1.5em sans-serif;
+	border-radius: 45px;
+	border: 1px solid;
+	text-align: center;
+	display: block;
+	margin: 30px auto 30px auto;
+	width: 80px;
 }
 
 
@@ -221,6 +276,34 @@ nav a.selected, nav a:hover {
 .breadcrumb a.selected, .breadcrumb a:hover {
 	color: #abcce3;
 }
+
+/* Stopwatch start control */
+	#start {
+	background-color: #fff;
+	border-color: #7bc945;
+	color: #7bc945;
+	}
+	
+/* Stopwatch start control selected*/
+	#start:hover {
+	background-color: #fff;
+	border-color: #b9d696;
+	color: #b9d696;
+	}
+	
+/* Stopwatch stop control */
+	#stop {
+	background-color: #fff;
+	border-color: #e62c31;
+	color: #e62c31;
+	}
+	
+/* Stopwatch start control selected*/
+	#stop:hover {
+	background-color: #fff;
+	border-color: #f18d7a;
+	color: #f18d7a;
+	}
 
 /* button */
 .button {

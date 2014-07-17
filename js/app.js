@@ -57,19 +57,30 @@ $("#answern").focus(answernEvent).keyup(answernEvent);
 //Problem: The time it takes to complete tasks can be demoralising
 //Solution: Build a timer to allow users to measure their progress at set intervals
 
-//Set start time of 10 minutes
+//runner: jQuery plugin
+$('#runner').runner({
+    countdown: true,
+    startAt: 10 * 60 * 1000,
+    stopAt: 0
+}).on('runnerFinish', function(eventObject, info) {
+    alert("Great job!");
+});
+//Start runner
+$('#start').click(function() {
+    //Stop false from running
+	stop = false;
+	$('#runner').runner('start');
+	show();
+});
 
-//Show minutes, seconds and miliseconds (10:00:00)
+//Stop runner
+$('#stop').click(function() {
+	//Stop start from running
+	start = false
+	$('#runner').runner('stop')
+	show();
+});
 
-//When button pressed
-
-//Start timer
-
-//Count down from 10:00:00 to 00:00:00
-
-//When button pressed
-
-//Stop timer
 
 //Problem: The information entered by the user is lost when the user finishes an objective.
 //Solution: Print out the information on the page.
