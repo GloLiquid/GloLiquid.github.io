@@ -136,6 +136,10 @@ PAGE: HOME
 	font-size: 1em;
 }
 
+textarea {
+	padding: 5px;
+}
+
 
 
 /***************************************
