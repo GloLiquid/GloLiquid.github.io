@@ -90,7 +90,7 @@ nav a {
 margin: -70px 0 20px 0;
 }
 
-.button {
+.button, .buttons {
     padding: 5px 10px;
     font: 1.5em sans-serif;
 	border-radius: 45px;
@@ -156,36 +156,13 @@ PAGE: START
 }
 		
 /* Stopwatch controls */
-	
-#controls {
-	text-align: center;
-	padding: 10px 0;
-	margin: 20px 0 0;
-}
 
 #controls ul {
 	list-style: none;
-	margin:0 10px;
 	padding: 0;
 }
-
-#controls li {
-	display: inline-block;
-	padding: 0 10px;
-}
 		
-#start {
-    padding: 5px 10px;
-    font: 1.5em sans-serif;
-	border-radius: 45px;
-	border: 1px solid;
-	text-align: center;
-	display: block;
-	margin: 0 auto 60px auto;
-	width: 80px;
-}
-
-#stop {
+#start, #stop  {
     padding: 5px 10px;
     font: 1.5em sans-serif;
 	border-radius: 45px;
@@ -311,13 +288,13 @@ nav a.selected, nav a:hover {
 	}
 
 /* button */
-.button {
+.button, .buttons {
 	background-color: #2e80b9;
 	color: #fff;
 }
 
 /* selected button */
-.button:hover {
+.button:hover, .buttons:hover {
 	background-color: #abcce3;
 }
 

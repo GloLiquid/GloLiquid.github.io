@@ -63,21 +63,42 @@ $('#runner').runner({
 }).on('runnerFinish', function(eventObject, info) {
     alert("Great job!");
 });
+
 //Start runner
 $('#start').click(function() {
     //Stop false from running
 	stop = false;
+	showStop();
 	$('#runner').runner('start');
 	show();
 });
 
 //Stop runner
+$('#stop').hide();
 $('#stop').click(function() {
 	//Stop start from running
 	start = false
+	showButtons();
+    alert("Great job!");
 	$('#runner').runner('stop')
 	show();
 });
+
+//Hide start page navigation button
+$('.buttons').hide();
+
+//Show stop
+function showStop() {
+	$('#start').hide()
+	$('#stop').show();
+}
+
+//Show navigation button
+function showButtons() {
+	$('#start').hide()
+	$('#stop').hide();
+	$('.buttons').show();
+}
 
 
 //Problem: The information entered by the user is lost when the user finishes an objective.
