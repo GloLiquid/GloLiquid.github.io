@@ -59,9 +59,7 @@ $("#answern").focus(answernEvent).keyup(answernEvent);
 
 //runner: jQuery plugin
 $('#runner').runner({
-    countdown: true,
-    startAt: 10 * 60 * 1000,
-    stopAt: 0
+    stopAt: 20 * 60 * 1000
 }).on('runnerFinish', function(eventObject, info) {
     alert("Great job!");
 });
