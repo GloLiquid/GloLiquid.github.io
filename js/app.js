@@ -59,7 +59,7 @@ $("#answern").focus(answernEvent).keyup(answernEvent);
 
 //runner: jQuery plugin
 $('#runner').runner({
-    stopAt: 20 * 60 * 1000
+    stopAt: 10 * 60 * 1000
 }).on('runnerFinish', function(eventObject, info) {
     showButtons();
 });
