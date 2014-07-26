@@ -61,7 +61,7 @@ $("#answern").focus(answernEvent).keyup(answernEvent);
 $('#runner').runner({
     stopAt: 20 * 60 * 1000
 }).on('runnerFinish', function(eventObject, info) {
-    alert("Great job!");
+    showButtons();
 });
 
 //Start runner
@@ -79,7 +79,6 @@ $('#stop').click(function() {
 	//Stop start from running
 	start = false
 	showButtons();
-    alert("Great job!");
 	$('#runner').runner('stop')
 	show();
 });
