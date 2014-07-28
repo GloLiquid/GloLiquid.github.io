@@ -136,8 +136,11 @@ PAGE: HOME
 	font-size: 1em;
 }
 
-textarea {
+#wrapper {
 	margin-top: 4em;
+}
+
+textarea {
 	padding: 5px;
 }
 
